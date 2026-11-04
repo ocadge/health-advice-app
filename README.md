@@ -24,8 +24,7 @@ Python, customtkinter, tkintermapview, requests, Pillow, SQLite
    - OpenWeatherMap: https://openweathermap.org/api
    - WAQI air quality token: https://aqicn.org/data-platform/token/
 3. Copy `.env.example` to `.env` and add your keys (or set the `OPENWEATHER_API_KEY` and `WAQI_API_TOKEN` environment variables).
-4. Add three 24px icons to an `images/` folder next to the script: `settings_icon.png`, `tracker_icon.png` and `return_icon.png`. They aren't included in this repo because of their licence; any free icon set works.
-5. Run `python HealthAdviceGroup.py`.
+4. Run `python HealthAdviceGroup.py`. The button icons are in `images/`; I made them for this repo, so you're free to reuse them.
 
 `.env` and the local database are git-ignored, so keys and logged requests are never uploaded.
 
